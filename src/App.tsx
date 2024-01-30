@@ -3,11 +3,13 @@ import './App.scss'
 function App() {
   return (
     <main>
-      <header>
-        <div className='header-container'>
+      <header className='header-container'>
+        <div className='logo-container'>
           <img src="" alt="" />
-          <span>Summerly</span>
-          <span>media</span>
+          <div className="logo-text">
+            <span className='logo-text-bold'>Summerly</span>
+            <span className='logo-text-regular'>media</span>
+          </div>
         </div>
       </header>
     </main>
