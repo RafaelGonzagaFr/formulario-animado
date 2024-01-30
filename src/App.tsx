@@ -4,7 +4,7 @@ function App() {
   return (
     <main>
       <header>
-        <div>
+        <div className='header-container'>
           <img src="" alt="" />
           <span>Summerly</span>
           <span>media</span>
